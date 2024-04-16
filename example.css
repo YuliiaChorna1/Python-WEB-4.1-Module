@@ -1,0 +1,25 @@
+#header {
+    color: #0000ff;
+}
+
+.text {
+    color: #aa0a0a;
+}
+
+.lanos {
+    width: 20%;
+}
+
+/* .cars {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */
+
+.cars {
+    display: flex;
+    justify-content: space-around;
+}

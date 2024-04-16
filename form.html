@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Example css</title>
+        <link rel="stylesheet" href="example.css">
+    </head>
+    <body>
+        <form method="POST" name="student" action="https://google.com">
+            <label for="firstname"> Enter your name
+                </br>
+                <input type="text" id="firstname" name="firstname" size="45"/>
+            </label>
+            </br></br>
+            <input type="radio" checked name="job"/> <span>University student</span>
+            </br>
+            <input type="radio" name="job"/> <span>Other</span>
+            </br>
+            <select id="select1" size="1">
+                <option>1 Course</option>
+                <option>2 Course</option>
+                <option>3 Course</option>
+            </select>
+            </br>
+            <input type="text" name="team" id="favourite_dish" list="dish_list">
+            <datalist id="dish_list">
+                <option>Борщ</option>
+                <option>Суп</option>
+                <option>Харчо</option>
+                <option>Холодник</option>
+            </datalist>
+            </br></br>
+            <button type="submit"> Submit</button>
+            <button type="reset"> Reset</button>
+        </form>
+    </body>
+</html>
